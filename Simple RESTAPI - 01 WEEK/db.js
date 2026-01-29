@@ -3,7 +3,7 @@ import mysql from 'mysql2/promise'
 const db = await mysql.createPool({
     host:"localhost",
     user:"root",
-    password:"NewPassword123",
+    password:"PASSWORD",
     database:"company_db",
     waitForConnections:true,
     connectionLimit:10
@@ -15,5 +15,6 @@ const db = await mysql.createPool({
 //     name VARCHAR(100) NOT NULL,
 //     department VARCHAR(100) NOT NULL
 // );
+
 
 export default db;
