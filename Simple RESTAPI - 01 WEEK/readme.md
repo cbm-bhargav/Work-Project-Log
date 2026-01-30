@@ -33,8 +33,8 @@ A lightweight **RESTful API** built with **Node.js** and **Express.js**. This pr
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
-| **GET** | `/api/data` | Fetch all records |
-| **GET** | `/api/data/:id` | Fetch a single record by ID |
-| **POST** | `/api/data` | Create a new record |
-| **PUT** | `/api/data/:id` | Update an existing record |
-| **DELETE** | `/api/data/:id` | Remove a record |
+| **GET** | `/api/users` | Fetch all records |
+| **GET** | `/api/users/:id` | Fetch a single record by ID |
+| **POST** | `/api/users` | Create a new record |
+| **PUT** | `/api/users/:id` | Update an existing record |
+| **DELETE** | `/api/users/:id` | Remove a record |
