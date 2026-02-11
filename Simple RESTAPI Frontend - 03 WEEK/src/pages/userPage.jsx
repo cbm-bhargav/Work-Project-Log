@@ -1,71 +1,3 @@
-// import { useState, useEffect } from "react";
-// import api from "../services/api.js";
-// import UserForm from "../components/userForm.jsx";
-
-// function UsersPage() {
-//     const [ users, setUsers ] = useState([])
-//     const [ selectedUser, setSelectedUser ] = useState(null)
-//     const [ loading, setLoading ] = useState(true)
-
-//     const handleDelete = async (id) => {
-//         try {
-//             await api.delete(`/users/${id}`)
-//             fetchUsers();
-//         } catch (error) {
-//             console.error(error)
-//         }
-//     }
-
-//     const handleEdit =(user)=>{  
-//         setSelectedUser(user);
-//     }
-
-//     const fetchUsers = async () => {
-//         try {
-//             const res = await api.get("/users")
-//             setUsers(res.data)
-//         } catch (error) {
-//             console.error(error)
-//         } finally {
-//             setLoading(false)
-//         }
-//     }
-
-//     useEffect(() => {
-//         fetchUsers();
-//     }, [])
-//     useEffect(()=>{
-
-//     },[selectedUser])
-
-//     if(loading) {
-//         return <h1> Users Loading .... </h1>
-//     }
-
-//     return (
-//         <>
-//         <h1>User Management App</h1>
-
-//         <ul>
-//             {
-//                 users.map(user => (
-//                     <div key={user.id}>
-//                         <h2>{user.name}</h2>
-//                         <h3>{user.department}</h3>
-//                         <button onClick={()=> handleEdit(user)}> Edit </button>
-//                         <button onClick={() => handleDelete(user.id)}> Delete </button>
-//                     </div>
-//                 ))
-//             }
-//         </ul>
-
-//         <UserForm key={selectedUser?.id || "new"} selectedUser={selectedUser} onSuccess={fetchUsers} clearSelected= {() => setSelectedUser(null)} />
-//         </>
-//     )
-// }
-
-// export default UsersPage;
-
 import { useState, useEffect } from "react";
 import api from "../services/api.js";
 import UserForm from "../components/userForm.jsx";
@@ -166,3 +98,4 @@ function UsersPage() {
 }
 
 export default UsersPage;
+
