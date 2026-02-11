@@ -1,47 +1,3 @@
-// import { useState } from "react";
-// import api from "../services/api.js";
-
-// function UserForm({ selectedUser, onSuccess, clearSelected}) {
-//     const [ name, setName ] = useState(selectedUser?.name || "")
-//     const [ department, setDepartment ] = useState(selectedUser?.department || "")
-    
-//     const handleSubmit = async (e) => {
-//         e.preventDefault();
-//         try {
-//             if(selectedUser){
-//                 await api.patch(`/users/${selectedUser.id}`, { name, department});
-//             }else{
-//                 await api.post("/users", { name, department});
-//             }
-//             clearSelected()
-//             onSuccess();
-//         } catch (error) {
-//             console.error(error)
-//         }
-//     }
-
-//     return (
-//         <form onSubmit={handleSubmit}>
-//             <h2>{selectedUser ? 'Edit user' : 'Add User' }</h2>
-            
-//             <input
-//                 placeholder="Name"
-//                 value={name}
-//                 onChange={e => setName(e.target.value)}
-//             />
-            
-//             <input 
-//                 placeholder="Department"
-//                 value={department}
-//                 onChange={e => setDepartment(e.target.value)}
-//             />
-//             <button>{selectedUser ? "Edit" : "Add"}</button>
-//         </form>
-//     )
-// }
-
-// export default UserForm
-
 import { useState } from "react";
 import api from "../services/api.js";
 
@@ -121,3 +77,4 @@ function UserForm({ selectedUser, onSuccess, clearSelected }) {
 }
 
 export default UserForm;
+
