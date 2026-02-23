@@ -9,3 +9,4 @@ Hands-on backend projects showcasing consistency, technical depth, and real-worl
 | 03 Week | static crud application (react.js & tailwind css)  | completed | https://github.com/cbm-bhargav/Work-Project-Log/tree/f978b9e124c8d3d89a0a3a007629efebd14da393/Static%20React.js%20CRUD%20Frontend%20-%2003%20WEEK |
 | 03 Week | simple reatapi frontend  | completed | https://github.com/cbm-bhargav/Work-Project-Log/tree/6a0878fa869f7da9d6750baa9768ba9ae30ae726/Simple%20RESTAPI%20Frontend%20-%2003%20WEEK |
 | 04 Week | Task Manager  | completed | https://github.com/cbm-bhargav/Work-Project-Log/tree/c71d36896aa3494b42d89a04bfe09cd44b8a7b24/Task%20Manager%20-%2004%20WEEK |
+| 05 Week | E-commerce Frontend (React-Redux)  | completed | https://github.com/cbm-bhargav/Work-Project-Log/tree/70505eceb69c7ee78dd3187936af0a36b876fbe9/Redux%20Toolkit%20Store%20-%2005%20WEEK |
