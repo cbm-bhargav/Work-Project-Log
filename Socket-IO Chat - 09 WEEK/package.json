@@ -1,0 +1,24 @@
+{
+  "name": "socket-io-chat",
+  "version": "1.0.0",
+  "description": "simple project for learning socket.io and websocket",
+  "keywords": [
+    "socket.io",
+    "websocket",
+    "bi-directionation_communication",
+    "dual_connection"
+  ],
+  "license": "ISC",
+  "author": "bhargav chauhan",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3"
+  }
+}
